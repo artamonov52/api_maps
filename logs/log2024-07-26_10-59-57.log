@@ -1,0 +1,59 @@
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2024-07-26 10:59:57.906346
+Request method: POST
+Request URL: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+-----
+Response: 200
+Response text: {"status":"OK","place_id":"863ab5d132104b6a07745ddfe9db18bb","scope":"APP","reference":"6d37a7fe31c6cd1b302ebbb171d693336d37a7fe31c6cd1b302ebbb171d69333","id":"6d37a7fe31c6cd1b302ebbb171d69333"}
+Response headers: {'Date': 'Fri, 26 Jul 2024 08:01:18 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2024-07-26 10:59:58.603959
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=863ab5d132104b6a07745ddfe9db18bb
+-----
+Response: 200
+Response text: {"location":{"latitude":"-52.007007","longitude":"52.000052"},"accuracy":"10","name":"Default buiding","phone_number":"+79527812000","address":"52, Nevsky avenue, Russia","types":"House,Shoes market,Bakery","website":"http:\/\/google.com","language":"Russian-RU"}
+Response headers: {'Date': 'Fri, 26 Jul 2024 08:01:19 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '263', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2024-07-26 11:00:00.140608
+Request method: PUT
+Request URL: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+-----
+Response: 200
+Response text: {"msg":"Address successfully updated"}
+Response headers: {'Date': 'Fri, 26 Jul 2024 08:01:20 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2024-07-26 11:00:02.031950
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=863ab5d132104b6a07745ddfe9db18bb
+-----
+Response: 200
+Response text: {"location":{"latitude":"-52.007007","longitude":"52.000052"},"accuracy":"10","name":"Default buiding","phone_number":"+79527812000","address":"101, Gagarina avenue, Russia","types":"House,Shoes market,Bakery","website":"http:\/\/google.com","language":"Russian-RU"}
+Response headers: {'Date': 'Fri, 26 Jul 2024 08:01:22 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '266', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2024-07-26 11:00:03.444512
+Request method: DELETE
+Request URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+-----
+Response: 200
+Response text: {"status":"OK"}
+Response headers: {'Date': 'Fri, 26 Jul 2024 08:01:24 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '15', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2024-07-26 11:00:05.361520
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=863ab5d132104b6a07745ddfe9db18bb
+-----
+Response: 404
+Response text: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Response headers: {'Date': 'Fri, 26 Jul 2024 08:01:26 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
